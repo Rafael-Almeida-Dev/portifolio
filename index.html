@@ -4,6 +4,7 @@
     <head>
       <title>Rafael Almeida</title>
       <link rel="stylesheet" href="style.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,11 +14,15 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Rafael Almeida</h2>
             <div>
-              <a class="link-navegacao">Habilidades</a>
-              <a class="link-navegacao">Portifólio</a>
-              <a class="link-navegacao">Experiências</a>
+              <a onclick="onClickSrollTo('section-abilities')"
+               class="link-navegacao">Habilidades</a>
+              <a class="link-navegacao" 
+              onclick="onClickSrollTo('section-portifolio')">Portifólio</a>
+              <a class="link-navegacao" 
+              onclick="onClickSrollTo('section-experiences')">Experiências</a>
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickSrollTo('section-contact')">
+              CONTATO</button>
           </div>
           <div class="hero-info">
             <div>
@@ -29,7 +34,8 @@
                 Programador desde 2022, com foco em desenvolvimento web e mobile,
                 atuando em mais de 10 projetos.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickSrollTo('section-contact')">
+                ENTRAR EM CONTATO</button>
               <div class="hero-info-icons-container">
                 <a>
                   <img
@@ -59,7 +65,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades</h2>
           <h2 class="verde">que domino.</h2>
           <div class="ability-card-container">
@@ -137,7 +143,7 @@
             </div>
           </div>
         </section>
-        <section class="section-portifolio">
+        <section class="section-portifolio" id="section-portifolio">
           <h2>Portifólio</h2>
           <h2 class="verde">de projetos.</h2>
           <div class="section-portifolio-grid">
@@ -200,7 +206,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experiências</h2>
           <h2 class="verde">Profissionais.</h2>
           <div class="section-experiencias-card">
@@ -240,7 +246,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
           <p>

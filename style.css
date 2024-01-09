@@ -141,7 +141,7 @@ footer {
 }
 
 .hero-info-image {
-  height: 594px;
+  height: 100%;
   width: 542px;
   border-radius: 40px;
   border-color: #06313f;
@@ -358,42 +358,4 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 40%;
-}
-
-@media only screen and (max-device-width: 450px) {
-  .content-container {
-    width: 96vw;
-    max-width: 96vh;
-  }
-
-  .footer-content {
-    width: 100%;
-  }
-  .hero-info {
-    width: 100%;
-  }
-
-  .ability-card-container {
-    row-gap: 36px;
-    grid-template-columns: auto;
-
-    margin-top: 12px;
-  }
-
-  .barra-navegacao {
-    width: 100%;
-  }
-
-  .hero-info-image {
-    width: 202px;
-  }
-
-  .section-experiencias-card {
-    width: 90vw;
-  }
-  .section-portifolio-grid {
-    row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 24px;
-  }
 }

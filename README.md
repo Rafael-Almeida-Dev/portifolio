@@ -7,6 +7,10 @@ The main goal creat a website with my main professional information.
 
 <img src="https://github.com/Rafael-Almeida-Dev/portifolio/blob/main/preview.png" height="500" />
 
+## Live link:
+
+https://rafael-almeida-dev.github.io/portifolio/
+
 ## Main concepts applied
 
 - Flexbox
